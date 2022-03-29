@@ -18,8 +18,8 @@ public class Point_3D  extends Point_2D {
     public void setZ(double z) {
         this.z = z;
     }
-    public double[] getXYZ() {
-        return new double[]{this.getX(), this.getY(), this.z};
+    public String getXYZ() {
+        return " " + this.getXY() + ", " + this.z + " ";
     }
 
     @Override

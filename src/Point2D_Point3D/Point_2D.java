@@ -32,8 +32,8 @@ public class Point_2D {
         this.y = y;
     }
 
-    public double[] getXY() {
-        return new double[]{this.x, this.y};
+    public String getXY() {
+        return " " + this.x + ", " + this.y + " ";
     }
 
     @Override
